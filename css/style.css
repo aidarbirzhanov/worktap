@@ -1,3 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family:'Montserrat', sans-serif;
+}
 .header{
     margin-top: 50px;
     display:flex ;
@@ -29,8 +39,10 @@ ul{
     align-items: center;
 }
 .container{
-    background: #F7F6FF;
+    width: 100%;
+    max-width: 1320px;
     margin: 0 auto;
+    display: flex;
 }
 .reg a{
     text-decoration: none;
@@ -73,4 +85,75 @@ ul{
 .buttons{
     display: flex;
     align-items: center;
+}
+.main{
+    display: flex;
+    margin: 0;
+    align-items: center;
+    margin-top: 62px;
+}
+.main__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    color: #222222;
+    margin-bottom: 30px;
+}
+.main__title a{
+    color: #1DBF73;
+}
+.main__descr{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;
+    margin-bottom: 50px;
+}
+.search{
+    display: flex;
+    margin-bottom: 50px;
+}
+.category__title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+    margin-bottom: 40px;
+}
+.category__items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.category__item{
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+.category__button a{
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;  
+    color: #FBA457;
+    background: #F7F6FF;
+    border-radius: 50px;
+}
+.search__text input{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #656084;
+    background: #F2F0FE;
+    border-radius: 50px;
+}
+.search__button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F6FAFD;
+}
+.search__button button{
+    background: #FBA457;
+    border: 3px solid #F2F0FE;
+    border-radius: 50px;
 }
